@@ -1,0 +1,138 @@
+﻿04.12.2020 15:58:00   
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в IdleMasterExtended.frmBrowser.tmrCheck_Tick(Object sender, EventArgs e)
+   в System.Windows.Forms.Timer.OnTick(EventArgs e)
+   в System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   в System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+07.12.2020 13:04:02   frmMain -> StartIdle -> load pic, for id = 320150
+System.Net.WebException: Запрос был прерван: Время ожидания операции истекло.
+   в System.Net.WebClient.OpenRead(Uri address)
+   в System.Net.WebClient.OpenRead(String address)
+   в System.Windows.Forms.PictureBox.Load()
+   в System.Windows.Forms.PictureBox.Load(String url)
+   в IdleMasterExtended.frmMain.StartSoloIdle(Badge badge)
+09/12/20 19:35:55   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:36:37   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:36:58   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:38:15   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:38:15   Badge -> LoadBadgesAsync, for profile = https://steamcommunity.com/profiles/76561199008218090
+System.Exception: Response is null or empty. Added (+1) to RetryCount
+   в IdleMasterExtended.frmMain.CheckIfResponseIsNullWithRetryCount(String response)
+   в IdleMasterExtended.frmMain.<GetBadgePageAsync>d__25.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.frmMain.<LoadBadgesAsync>d__24.MoveNext()
+09/12/20 19:39:12   frmMain -> GetSignedAs, for steamUrl = https://steamcommunity.com/profiles/76561199008218090
+System.Net.WebException: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в IdleMasterExtended.SteamProfile.GetSignedAs()
+09/12/20 19:39:54   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:40:15   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:40:36   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:40:57   CookieClient -> GetHttpAsync, for url = https://steamcommunity.com/profiles/76561199008218090/badges/?p=1
+System.Net.WebException: Исключение во время запроса WebClient. ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в System.Net.WebClient.DownloadBitsState.SetResponse(WebResponse response)
+   в System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.CookieClient.<GetHttpAsync>d__6.MoveNext()
+09/12/20 19:40:57   Badge -> LoadBadgesAsync, for profile = https://steamcommunity.com/profiles/76561199008218090
+System.Exception: Response is null or empty. Added (+1) to RetryCount
+   в IdleMasterExtended.frmMain.CheckIfResponseIsNullWithRetryCount(String response)
+   в IdleMasterExtended.frmMain.<GetBadgePageAsync>d__25.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в IdleMasterExtended.frmMain.<LoadBadgesAsync>d__24.MoveNext()
+09/12/20 19:49:34   frmMain -> StartIdle -> load pic, for id = 253920
+System.Net.WebException: Запрос был прерван: Время ожидания операции истекло.
+   в System.Net.WebClient.OpenRead(Uri address)
+   в System.Net.WebClient.OpenRead(String address)
+   в System.Windows.Forms.PictureBox.Load()
+   в System.Windows.Forms.PictureBox.Load(String url)
+   в IdleMasterExtended.frmMain.StartSoloIdle(Badge badge)
+09/12/20 19:51:50   frmMain -> StartIdle -> load pic, for id = 292410
+System.Net.WebException: Запрос был прерван: Время ожидания операции истекло.
+   в System.Net.WebClient.OpenRead(Uri address)
+   в System.Net.WebClient.OpenRead(String address)
+   в System.Windows.Forms.PictureBox.Load()
+   в System.Windows.Forms.PictureBox.Load(String url)
+   в IdleMasterExtended.frmMain.StartSoloIdle(Badge badge)
+09/12/20 19:52:21   frmMain -> StartIdle -> load pic, for id = 251870
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.OpenRead(Uri address)
+   в System.Net.WebClient.OpenRead(String address)
+   в System.Windows.Forms.PictureBox.Load()
+   в System.Windows.Forms.PictureBox.Load(String url)
+   в IdleMasterExtended.frmMain.StartSoloIdle(Badge badge)
+9/8/2021 8:50:15 PM   
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdleMasterExtended.frmBrowser.tmrCheck_Tick(Object sender, EventArgs e)
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+9/8/2021 8:50:16 PM   
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdleMasterExtended.frmBrowser.tmrCheck_Tick(Object sender, EventArgs e)
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+10/4/2021 8:02:21 PM   
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at IdleMasterExtended.frmBrowser.tmrCheck_Tick(Object sender, EventArgs e)
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
