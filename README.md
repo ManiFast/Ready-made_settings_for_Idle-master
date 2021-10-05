@@ -44,3 +44,5 @@ start steam-idle.exe 220200 rem KSP
 + После чего запустить фаил, *и не открывать игру*.
 <!--фото 2-->
 ![](https://github.com/Stas-inside/Ready-made_settings_for_Idle-master/blob/main/Pictures/Captu323re.PNG)
+
+**\s/**
