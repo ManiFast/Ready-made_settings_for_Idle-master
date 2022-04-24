@@ -11,7 +11,7 @@ cd idle_master_extended_v1.7/
 + Далее заходим в стим и в магазине ищем игру которую хотим запустить, копируем адресс страницы (ПКМ, copy URL)
 
 + Вставляем в браузер и копируем цифры
-
+ 
 <!--фото 1-->
 ![](https://github.com/Stas-inside/Ready-made_settings_for_Idle-master/blob/main/Pictures/Capture.PNG)
 
