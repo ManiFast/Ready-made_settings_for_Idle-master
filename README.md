@@ -45,7 +45,7 @@ start steam-idle.exe 220200 rem KSP
 <!--фото 2-->
 ![](https://github.com/Stas-inside/Ready-made_settings_for_Idle-master/blob/main/Pictures/Captu323re.PNG)
 
-if u dont understand open the `READMERUS.md`
-если вы не понимаете, откройте `READMERUS.md`
+if u dont understand open the `READMERUS.md`</br>
+если вы не понимаете, откройте `READMERUS.md`</br>
 
 **\s/**
