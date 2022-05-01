@@ -5,7 +5,7 @@
 + Create on desktop file with extension ".bat", and write in this commands like cmd (Subtopic. Working with attribute **dir**).
  
 ```   
-cd idle master/
+cd idle master/ 
 cd idle_master_extended_v1.7/
 ``` 
 + Next go to steam and in shop choose game wich want to start(farm), copy the page adress (Right-Click, copy URL)
