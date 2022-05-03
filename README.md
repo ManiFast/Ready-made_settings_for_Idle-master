@@ -1,4 +1,4 @@
-### Instruction for created **EXECUTABLE FILE** for idle master
+### Instruction for created **EXECUTABLE FILE** for idle master 
 
 + Move folder `idle master` on desktop or enother path when u prefer (*Its important not to change folders names*).
 
